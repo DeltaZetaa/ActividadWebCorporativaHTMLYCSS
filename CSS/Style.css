@@ -1,0 +1,103 @@
+@font-face {
+    font-family: BreakingB;
+    src: url(../recursos/BreakingBad.ttf);
+}
+body{
+   font-family: Helvetica, sans-serif;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+#logo{
+    width:"200px" ;
+    height:"200px";
+}
+
+fieldset{
+    border: 3px solid #2b2c24;
+    padding: 15px;
+    border-radius: 20px;
+    background-color: rgba(160, 227, 252, 0.70);
+    width: 500px;
+    height: 420px ;
+    
+}
+legend{
+    border: 3px solid #2b2c24;
+    border-radius: 20px;
+    background-color: #50b0d8;
+    padding: 8px;
+}
+#bordeRedondo{
+    width: 700px;
+    height: 300px;
+    border-radius: 22px;
+    border: 10px outset brown; 
+}
+#fondoImagen{
+    background-image: url(../img/fondo.jpg);
+    background-size: 100vw 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.tipografia-bb{
+    font-family: BreakingB;
+    font-size: 1.5rem;
+}
+#TablaElementos{
+    background-color: #2b2c24;
+    text-align: center;
+    border-spacing: 6px;
+    margin: 0 auto;
+}
+hr{
+    border: 2px solid #2b2c24;
+    border-radius: 20px; 
+}
+b{
+    font-size: 14px;
+}
+tr,td{
+    height: 65px;
+    width: 65px;
+}
+#imgen-cetrada{
+    display: flex;
+    justify-content: center;
+}
+#general-tabla-BB{
+    background-color: #0c3e11;
+    font-size: 10px;
+}
+.color-1-tabla{
+    background-color: #b5d92d;
+}
+.color-2-tabla{
+    background-color: #d4e973;
+}
+.color-3-tabla{
+    background-color: #ab8fcc;
+}
+.color-4-tabla{
+    background-color: #eff7c4;
+}
+.color-5-tabla{
+    background-color: #89a510;
+}
+.color-6-tabla{
+    background-color: #637028;
+}
+.color-7-tabla{
+    background-color: #c5e14c;
+}
+.color-8-tabla{
+    background-color: #bcc49f;
+}
+.color-9-tabla{
+    background-color: #c2c629;
+}
+.color-10-tabla{
+    background-color: #818d4b;
+}

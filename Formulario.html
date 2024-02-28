@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/Style.css">
+    <title>Formulario</title>
+</head>
+<body id="fondoImagen">
+    <div id="imgen-cetrada">
+    <h1>Breaking Bad - ¡Que comience el juego!</h1>
+    </div>
+    
+    <form>
+        <table><tr>
+            <td><fieldset> 
+                <legend>Datos Personales</legend>
+                <label>Nombre:</label>
+                <br><input type="text" name="Nombre" id="" placeholder="Walter" required>
+                <br><label>Apellido:</label>
+                <br><input type="text" name="Apellidos" id="" placeholder="White" required>
+                <br><label>Fecha de Nacimiento:</label>
+                <br><input type="date">
+                <br><label>Direccion:</label>
+                <br><input type="text" name="Direccion" id="" placeholder="9516 Snow Heights Cir NE, Albuquerque, NM 87112">
+                <br><label>Codigo Postal:</label>
+                <br><input type="text" name="CodPostal" id="" placeholder="99999">
+                <br><label>Ciudad:</label>
+                <br><input type="text" name="Ciudad" id="" placeholder="Alburquerque">
+                <br><label>DNI:</label>
+                <br><input type="text" name="DNI" id="" placeholder="999999999">
+                <br><label>E-Mail:</label>
+                <br><input type="email" name="" id="" placeholder="WalterWhite@Hotmail.com" required>
+                <br><label>Genero:</label>
+                <br><input type="radio" name="Genero" value="Hombre"> Hombre. 
+                    <input type="radio" name="Genero" value="Mujer"> Mujer.
+            </fieldset></td>
+            <td><fieldset>
+                <legend>Episodio Favorito</legend>
+                <label>Comenta tu episodio favorito</label>
+                <br><select name="Capitulos" id="">
+                    <option value="1"> 01 Piloto</option>
+                    <option value="2"> 02 El gato está en la bolsa...</option>
+                    <option value="3"> 03 ...Y la bolsa está en el río</option>
+                    <option value="4"> 04 El hombre del cáncer</option>
+                    <option value="5"> 05 Asunto gris</option>
+                    <option value="6"> 06 Puñado loco de nada</option>
+                    <option value="7"> 07 Trato sin remordimientos</option>
+                    <option value="8"> 08 Siete treinta y siete</option>
+                    <option value="9"> 09 Asado</option>
+                    <option value="10">10 Picado por una abeja muerta</option>
+                    <option value="11">11 Abajo</option>
+                    <option value="12">12 Rotura</option>
+                    <option value="13">13 Jugando a las escondidas</option>
+                    <option value="14">14 Negro y azul</option>
+                    <option value="15">15 Mejor llama a Saul</option>
+                    <option value="16">16 4 días afuera</option>
+                    <option value="17">17 Más allá</option>
+                    <option value="18">18 Mandala</option>
+                    <option value="19">19 Phoenix</option>
+                    <option value="20">20 ABQ</option>
+                    <option value="21">21 No más</option>
+                    <option value="22">22 Caballo sin nombre</option>
+                    <option value="23">23 I.F.T.</option>
+                    <option value="24">24 Luz verde</option>
+                    <option value="25">25 Más</option>
+                    <option value="26">26 Atardecer</option>
+                    <option value="27">27 Un minuto</option>
+                    <option value="28">28 Te veo</option>
+                    <option value="29">29 Kafkaesque</option>
+                    <option value="30">30 Mosca</option>
+                    <option value="31">31 Abiquiú</option>
+                    <option value="32">32 Medidas a medias</option>
+                    <option value="33">33 Medida completa</option>
+                    <option value="34">34 Cortador de caja</option>
+                    <option value="35">35 Treinta y ocho especial</option>
+                    <option value="36">36 Casa abierta</option>
+                    <option value="37">37 Puntos de bala</option>
+                    <option value="38">38 Tren muerto</option>
+                    <option value="39">39 Adiós</option>
+                    <option value="40">40 Hermanos</option>
+                    <option value="41">41 Error</option>
+                    <option value="42">42 Bicho</option>
+                    <option value="43">43 Salud</option>
+                    <option value="44">44 Bodega</option>
+                    <option value="45">45 Últimos tiempos</option>
+                    <option value="46">46 Cara a cara</option>
+                    <option value="47">47 Vive o muere</option>
+                    <option value="48">48 Madrigal</option>
+                    <option value="49">49 Riesgo laboral</option>
+                    <option value="50">50 Cincuenta y uno</option>
+                    <option value="51">51 Carga muerta</option>
+                    <option value="52">52 Compra</option>
+                    <option value="53">53 Di mi nombre</option>
+                    <option value="54">54 Deslizándose sobre todo</option>
+                    <option value="55">55 Dinero sangriento</option>
+                    <option value="56">56 Enterrado</option>
+                    <option value="57">57 Confesiones</option>
+                    <option value="58">58 Perro rabioso</option>
+                    <option value="59">59 To'hajiilee</option>
+                    <option value="60">60 Ozymandias</option>
+                    <option value="61">61 Estado de granito</option>
+                    <option value="62">62 Felina</option>
+                </select>
+                <br><textarea name="" id="" cols="30" rows="10" spellcheck="true" placeholder="Comenta que hace este episodio especial"></textarea>
+                <br>Selecciona tu personaje
+                <br><select name="PersonajesBB" id="">
+                    <option value="1">Jessie Pinkman</option>
+                    <option value="2">Walter White,</option>
+                    <option value="3">Saul Goodman,</option>
+                    <option value="4">Gustavo Fring</option>
+                    <option value="5">Pollos Hermanos</option>
+                    <option value="6">Otros personajes</option>
+                </select>
+                <hr>
+                <br><label>¿Quieres enviar algun fan art?</label>
+                <br><input type="file" name="archivo" accept=".png, .jpg, .doc" multiple>
+                <p align="center">
+                    <br><input type="submit" value="Enviar" formaction="mailto:raul.rodriguez@proeducaglobal.com">
+                    </p>
+         
+            </fieldset></td>
+            
+        </tr>
+    </table>
+        
+
+        
+
+    
+
+</form>
+
+</body>
+</html>
